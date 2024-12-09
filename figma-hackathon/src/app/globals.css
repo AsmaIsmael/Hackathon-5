@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.top-selling, .dress-style, .happy-customers {
+    padding: 20px;
+  }
+
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .products, .categories {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .product-card, .category-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 180px;
+  }
+
+  .product-card img, .category-card img {
+    width: 100%;
+    border-radius: 8px;
+  }
+
+  .rating {
+    display: flex;
+    justify-content: center;
+    color: #FFD700;
+  }
+
+  .old-price {
+    text-decoration: line-through;
+    color: red;
+  }
+
+  .happy-customers .review-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
